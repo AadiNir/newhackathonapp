@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background: #696969	;
+}
+.formpage{
+
+  width:300px;
+  padding:50px;
+
+
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+box-sizing: content-box;
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.name{
+  background: transparent;
+
+
+}
+.title{
+  background: transparent;
+
+
+}
+.about{
+  background: transparent;
+
+
+}
+.amount{
+  background: transparent;
+
+
+}
+.date{
+  background: transparent;
+  width:170px;
+
+
+}
+.image{
+  background: transparent;
+
+
+}
+.Main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 300px;
+}
+.f1{
+  align-items: right;
+}
+.f2{
+  text-align: left;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.f3{
+  text-align: left;
 }
+.f4{
+  text-align: left;
+}
+.f5{
+  text-align: left;
+}
+.f6{
+  text-align: left;
+}
+
