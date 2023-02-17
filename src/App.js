@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import {Routes,Route} from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom';
-import Createstartupfunding from './components/Createstartupfunding';
-import Gallery from './components/Gallery';
+import Createstartupfunding from '../thirdweb-app/src/components/Createstartupfunding';
+import Gallery from '../thirdweb-app/src/components/Gallery';
 function App() {
   return (
     <div className="App">
